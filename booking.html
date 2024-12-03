@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Book a Session</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="membership.html">Membership</a>
+            <a href="booking.html">Booking</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Schedule Your Appointment</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="sesssion">Choose Session</label>
+                <select name="session" id="session">
+                    <option value="personal-training">Personal Training</option>
+                    <option value="group-class">Group Class</option>
+                    <option value="nutrition-consultation">Nutrition Consultation</option>
+                </select>
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FitLife</p>
+    </footer>
+</body>
+</html>
